@@ -10,27 +10,27 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     
-
-news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-latest_posts: false
 social: false # includes social icons at the bottom of the page
+
+announcements:
+  enabled: false # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-{% assign start_date = site.exp_start_date | date: "%s" %}
-{% assign current_date = "now" | date: "%s" %}
-{% assign seconds_in_year = 60 | times: 60 | times: 24 | times: 365 %}
-{% assign seconds_in_month = 60 | times: 60 | times: 24 | times: 30 %}
+Hello, 
 
-{% assign total_seconds = current_date | minus: start_date %}
-{% assign years = total_seconds | divided_by: seconds_in_year %}
-{% assign remaining_seconds = total_seconds | modulo: seconds_in_year %}
-{% assign months = remaining_seconds | divided_by: seconds_in_month %}
-
-Hello, I am a software engineer, passionate about `Data Structure and Algorithms, Operating Systems, Networking, Security, Operating systems, Data Storage and Data Backup`. Currently, I work as a __Software Engineer__ at *Dell Technologies*.
-
-I have been working at Dell Technologies since *October 2020*, working on automation and development of Data Storage and Backup appliances, having a total of **{{ years }} years and {{ months }} months** of industrial experience.
+I am a software engineer, likes exploring about `Data Structure and Algorithms, Operating Systems, Networking, Security, Operating systems, Data Storage and Data Backup`. 
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oapatil/)
 &nbsp;&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/phileinsophos)
+&nbsp;&nbsp;
+[![Goodreads](https://img.shields.io/badge/-Goodreads-372213?style=flat&logo=goodreads&logoColor=white)](https://www.goodreads.com/user/show/69916457-omkar-patil)
+
