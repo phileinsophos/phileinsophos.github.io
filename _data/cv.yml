@@ -13,14 +13,15 @@
   contents:
     - title: Senior Software Engineer
       institution: Dell Technologies
-      year: Apr-2024 - Present
+      year: 
       description:
+        - Implemented support for OIDC based Single Sign On for the appliance, using which enterprise users can easily login to appliance without having to create user accounts on the appliance 
         - Implemented multi-LDAP server registration on the appliance, enhancing user authentication and system scalability.
         - Focused on Identity and Access Management (IAM) functionality.
 
     - title: Software Engineer 2
       institution: Dell Technologies
-      year: Oct-2022 - Mar-2024
+      year: 
       description:
         - Delivered appliance troubleshooting through CLI feature, a custom shell acting as facade between user and appliance os shell, written in python, which enables a customer to troubleshoot network configurations, disk state, etc.
         - Led microservice-based logging and log rotation policy implementation.
@@ -29,7 +30,7 @@
         
     - title: Software Engineer
       institution: Dell Technologies
-      year: Oct-2020 - Sep-2022
+      year: 
       description:
         - Led the implementation of hardware alert monitoring, providing real-time insights into appliance hardware issues.
         - Developed appliance log collection functionality for efficient issue debugging.
@@ -42,7 +43,7 @@
 
     - title: Intern
       institution: Dell Technologies
-      year: Jul-2019 - Apr-2020
+      year: 
       description:
         - Worked on implementing a framework for log analysis.
         - Web based portal for processing log bundles and providing solutions to errors present in log files.
